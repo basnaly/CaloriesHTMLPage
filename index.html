@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>HTML&CSS project</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script>
+        function onSubmit() {
+            alert("Your form has been sent. Thanks for contacting us!")
+        };
+    </script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+
+            <nav class="navbar">
+                <a href="#Introduction">
+                    <span class="material-icons icon">home_work</span>
+                    <span class="header-description">Home</span>
+                </a>
+                <a href="#Contact_us">
+                    <span class="material-icons icon">mail</span>
+                    <span class="header-description">Contact us</span>
+                </a>
+                <a href="#Using_sources">
+                    <span class="material-icons icon">travel_explore</span>
+                    <span class="header-description">About</span>
+                </a>
+            </nav>
+            <img class="logo" src="https://img.icons8.com/dusk/50/000000/bitten-apple.png" alt="Logo" />
+        </header>
+
+        <aside class="aside-panel">
+            <nav class="aside-panel-nav">
+                <header class="books">
+                    <img
+                        src="https://img.icons8.com/external-wanicon-two-tone-wanicon/40/000000/external-books-education-wanicon-two-tone-wanicon.png" />
+                    <h3>Contents</h3>
+                </header>
+                <a class="aside-link" href="#Introduction">Introduction</a>
+                <a class="aside-link" href="#What_are_calories?">What_are_calories?</a>
+                <a class="aside-link" href="#Calories_and_energy_balance?">Calories and energy balance</a>
+                <a class="aside-link" href="#How_many_calories_should_people_eat_every_day?">How many calories
+                    should people eat every day?</a>
+                <a class="aside-link" href="#What_should_those_calories_be?">What should those calories be?</a>
+                <a class="aside-link" href="#What_are_high-calorie_foods?">What are high-calorie foods?</a>
+                <a class="aside-link" href="#What_are_low-calorie_foods?">What are low-calorie foods?</a>
+                <a class="aside-link" href="#What_are_empty_calories?">What are empty calories?</a>
+                <a class="aside-link" href="#Calories_and_weight_loss">Calories and weight loss</a>
+                <a class="aside-link" href="#Counting_calories_and_cutting_calories_for_weight_loss">Counting
+                    calories and cutting calories for weight loss</a>
+                <a class="aside-link" href="#Calorie_counters">Calorie counters</a>
+                <a class="aside-link" href="#How_calculate_your_dinner?">How calculate your dinner?</a>
+                <a class="aside-link" href="#Calories_in_Common_Foods">Calories in Common Foods</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+
+            <h2 id="Introduction">Introduction</h2>
+
+            <p>
+                In our days a lot of people are intrested in measuring how much they eat. I'll provide you
+                an example of the recipe with calories calculation and table of calories in common foods,
+                but first I'd like briefly introduce you the topic.
+            </p>
+
+            <div class="photos">
+                <img class="breakfast" src="breakfast.PNG" alt="Breakfast" />
+                <img class="pasta" src="chicken-pasta.png" alt="Chicken pasta" />
+            </div>
+
+            <h2 id="What_are_calories?">What are calories?</h2>
+
+            <p>
+                A calorie is a unit of energy. Historically, scientists have defined "calorie" to mean a unit of
+                energy or heat that could come from a variety of sources, such as coal or gas. In a nutritional sense,
+                all types of food — whether they are fats, proteins, carbohydrates or sugars — are important sources
+                of calories, which people need to live and function.
+            </p>
+
+            <p>
+                "Our brains, our muscles — every cell in our body — require energy to function in its optimal state,"
+                said Jennifer McDaniel, a registered nutritionist dietitian in Clayton, Missouri, and spokesperson for
+                the Academy of Nutrition and Dietetics. "So for one, we want to nourish our body right and our brain
+                right. If we don’t get enough of those nutrients [that calories provide], there are negative
+                consequences, whether its losing lean muscle mass, not being able to concentrate or not having the
+                energy we need on a day-to-day basis.”
+            </p>
+
+            <h2 id="Calories_and_energy_balance?">Calories and energy balance</h2>
+
+            <p>
+                Our bodies need energy to keep us alive and our organs functioning normally.
+                When we eat and drink, we put energy into our bodies. Our bodies use up that energy through
+                everyday movement, which includes everything from breathing to running.
+            </p>
+
+            <p>
+                To maintain a stable weight, the energy we put into our bodies must be the same as the energy
+                we use through normal bodily functions and physical activity. An important part of a healthy
+                diet is balancing the energy you put into your bodies with the energy you use.
+                For example, the more physical activity we do, the more energy we use.
+                If you consume too much energy on 1 day, do not worry. Just try to take in less energy on
+                the following days.
+            </p>
+
+            <h2 id="How_many_calories_should_people_eat_every_day?">How many calories should people eat every day?</h2>
+
+            <p>
+                How many calories a person needs in a day depends on the individual’s activity level and
+                resting metabolic rate, which can be measured at a doctor or dietitian’s office, McDaniel
+                said. “There’s conventional wisdom that men shouldn’t eat fewer than 1,500 calories and
+                women 1,200 calories to ensure that they’re getting a balance of major nutrients and
+                micronutrients.”
+            </p>
+
+            <p>
+                The National Institutes of Health (NIH) provides general guidelines of calorie
+                requirements for various ages and activity levels. A middle-age moderately active female
+                should consume 2,000 calories per day. A middle-age moderately active male should consume
+                2,400 to 2,600 calories per day.
+            </p>
+
+            <h2 id="What_should_those_calories_be?">What should those calories be?</h2>
+
+            <p>
+                The official Dietary Reference Intakes (DRI) published by the National Academies of
+                Sciences, Engineering and Medicine recommends that for an adult, 45 to 65 percent of
+                calories should come from carbohydrates, 20 to 25 percent should come from fat and
+                10 to 35 percent should come from protein. Children need a higher proportion of fat,
+                between 25 and 40 percent of their calories. No more than 25 percent of total
+                calories should come from added sugars. 
+            </p>
+
+            <p>
+                McDaniel said that beyond those general guidelines the amount of macronutrients
+                needed depends on the individual’s activity level. An athlete, for example, needs
+                more carbohydrates. Food preferences also play a role. “I love bread so I’d never
+                go on a low-carb diet because I want a sustainable approach,” she said.
+            </p>
+
+            <h2 id="What_are_high-calorie_foods?">What are high-calorie foods?</h2>
+
+            <p>
+                Foods that are considered high-calorie, or calorically dense, have a high amount
+                of calories relative to their serving size, according to the Mayo Clinic. Oils,
+                butter and other fats; fried foods; and sugary sweets are high-calorie foods.
+                While high-calorie foods are often associated with junk food, some are high in
+                nutrients, as well.
+            </p>
+
+            <p>
+                Healthy foods that are high in calories include avocados (227 calories each), 
+                quinoa (222 calories per cup), nuts (828 calories per cup of peanuts),
+                olive oil (119 calories per tablespoon), whole grains, and, in moderation,
+                dark chocolate (648 calories per bar), according to the USDA Nutrition Database.
+            </p>
+
+            <p>
+                Raisins are an example of a high-calorie food that might surprise some people;
+                you could eat 1 cup of grapes and get the same amount of calories as from
+                one-quarter cup of raisins, according to the Mayo Clinic. Dried fruits are
+                usually calorically dense; for this reason, they are popular among hikers
+                burning a lot of calories. 
+            </p>
+
+            <h2 id="What_are_low-calorie_foods?">What are low-calorie foods?</h2>
+
+            <p>
+                Foods that are considered low-calorie have a low amount of calories relative
+                to their serving size. Fruits and especially vegetables are usually relatively
+                low in calories. For example, 2 cups of shredded romaine lettuce or spinach 
+                have 16 calories, a large stalk of celery has 10 calories, 1 large ear of corn
+                has 123 calories, 1 cup of broccoli has 15 calories and an orange has 70
+                calories, according to the USDA Nutrition Database. 
+            </p>
+
+            <h2 id="What_are_empty_calories?">What are empty calories?</h2>
+
+            <p>
+                Empty calories contain few to no nutrients. They often come from added sugars
+                and solid fats, according to the Choose My Plate campaign run by the USDA.
+                Solid fats are fats that solidify at room temperature, like butter, shortening
+                and fats found in some meats. They can occur naturally but are often added
+                to foods. 
+            </p>
+
+            <p>
+                Many typical American foods have a lot of empty calories. Choose My Plate lists
+                ice cream, sodas, cheese, pizza and processed meats like hot dogs and sausages
+                as examples of popular foods high in empty calories. Some of these foods,
+                like cheese and pizza, also contain nutrients (cheese is high in calcium and
+                contains protein; pizza sauces, toppings and crusts can have nutrients) but
+                other foods, like sodas and most candies, contain only empty calories.
+                Choose My Plate calls these empty-calorie foods.
+            </p>
+
+            <h2 id="Calories_and_weight_loss">Calories and weight loss</h2>
+
+            <p>
+                Though it is important to consume sufficient calories, counting and cutting
+                calories can help many people shed pounds. Calories are expended through physical
+                activity. For example, running a mile might burn around 112 calories, according
+                to Runner’s World magazine. The Centers for Disease Control and Prevention (CDC) 
+                refers to the balance of calories burned and calories consumed as caloric balance.
+                It functions like a scale; when you are in balance, the calories consumed are
+                balanced by the calories burned. This means you will maintain your body weight.
+            </p>
+
+            <p>
+                According to the CDC, if you are maintaining your weight, you are in caloric
+                balance. This means that every day, you are consuming roughly the same amount
+                of calories you are burning. If you are in caloric excess, you are eating more
+                calories than you are burning and you will gain weight. If you are in caloric
+                deficit, you are burning more calories than you are eating, and you will
+                lose weight.
+            </p>
+
+            <p>
+                When people want to lose weight they often attempt to have a caloric deficit.
+                But even a person with a caloric deficit needs to consume sufficient calories
+                to function and stay healthy. Eating enough calories helps maintain muscle
+                mass during the weight-loss process, McDaniel said. It also helps make weight
+                loss sustainable. “If someone slashes calories to lose weight, where do they
+                go from there? Does that mean they continue eating less and less?” she asked.
+            </p>
+
+            <h2 id="Counting_calories_and_cutting_calories_for_weight_loss">Counting calories and cutting calories for
+                weight loss</h2>
+
+            <p>
+                Counting and cutting calories can be a practical approach to weight loss.
+                There are, however, other approaches to weight loss for those who don’t want
+                to count calories, such as regimens that focus on changes in dietary behavior
+                rather than calorie counts.
+            </p>
+
+            <p>
+                Whether someone chooses to count calories or take a behavioral change
+                approach, McDaniel said it is important to “find ways to not just slash
+                calories but replace them with healthier options that are still emotionally
+                and physically gratifying for that individual.”
+            </p>
+
+            <p>
+                Someone interested in losing weight should consider how many calories he
+                or she is eating, how many calories he or she needs and the differences
+                between those numbers, McDaniel said. If someone is eating more calories
+                than necessary, that person will need to change his or her behavior.
+            </p>
+
+            <h2 id="Calorie_counters">Calorie counters</h2>
+
+            <p>
+                There's a wide range of online calorie counters for computers and mobile
+                phones. Many of these can be downloaded and used for free.
+                Some restaurants put calorie information on their menus, so you can also
+                check the calorie content of foods when eating out.
+            </p>
+
+            <h2 id="How_calculate_your_dinner?">How can you calculate your dinner?</h2>
+
+            <p>
+                You are going to prepare dinner and you want to know how many calories are in it acoording
+                to your pecipe? It is very simple. All you need is to weight all the ingridients
+                and write them in your prefered calories management application. Usually you already
+                know how big is the dish you prepare.
+                If you usually write the calories do not forget to write the cockies with coffee!
+            </p>
+
+            <table class="table recipe">
+                <caption class="note">
+                    <h3>Example of calculating for recipe of Spinach rice</h3>
+                </caption>
+
+                <tr>
+                    <th>Ingridients</th>
+                    <th>Amount</th>
+                    <th>Calories per amount</th>
+                </tr>
+                <tr>
+                    <th>Extra virgin olive oil</th>
+                    <td>100 gr</td>
+                    <td>884 kcal</td>
+                </tr>
+                <tr>
+                    <th>Onion, finely chopped</th>
+                    <td>220 gr</td>
+                    <td>88 kcal</td>
+                </tr>
+                <tr>
+                    <th>Baby spinach leaves, finely chopped</th>
+                    <td>500 gr</td>
+                    <td>115 kcal</td>
+                </tr>
+                <tr>
+                    <th>Long-grain rice</th>
+                    <td>300 gr</td>
+                    <td>1077 kcal</td>
+                </tr>
+                <tr>
+                    <th>Juice 1-2 lemons</th>
+                    <td>180 gr</td>
+                    <td>63 kcal</td>
+                </tr>
+                <tr>
+                    <th>Bunch dill , finely chopped</th>
+                    <td>50 gr</td>
+                    <td>22 kcal</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total:</th>
+                    <td>2249 kcal</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total per 1 serve:</th>
+                    <td>450 kcal</td>
+                </tr>
+
+            </table>
+
+            <h2 id="Calories_in_Common_Foods" class="center_title">Calories in Common Foods</h2>
+
+            <table class="table common_foods">
+                <caption class="note">
+                    <h3>Calorie counters</h3>
+                </caption>
+
+                <tr>
+                    <th>Food</th>
+                    <th>Serving Size</th>
+                    <th>Calories</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Fruits</th>
+                </tr>
+                <tr>
+                    <th>Apple</th>
+                    <td>180 gr</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <th>Banana</th>
+                    <td>100 gr</td>
+                    <td>101</td>
+                </tr>
+                <tr>
+                    <th>Orange</th>
+                    <td>160 gr</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <th>Pear</th>
+                    <td>100 gr</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <th>Peach</th>
+                    <td>100 gr</td>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <th>Pineapple</th>
+                    <td>100 gr</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th>Strawberry</th>
+                    <td>100 gr</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <th>Watermelon</th>
+                    <td>100 gr</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Vegetables</th>
+                </tr>
+                <tr>
+                    <th>Asparagus, cooked</th>
+                    <td>100 gr</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <th>Broccoli, cooked</th>
+                    <td>100 gr</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <th>Carrots</th>
+                    <td>100 gr</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <th>Cucumber</th>
+                    <td>100 gr</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th>Egglant, cooked</th>
+                    <td>100 gr</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <th>Letucce</th>
+                    <td>50 gr</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>Tomato</th>
+                    <td>100 gr</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <th>Potato, boiled</th>
+                    <td>100 gr</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Proteins</th>
+                </tr>
+                <tr>
+                    <th>Beef, cooked</th>
+                    <td>100 gr</td>
+                    <td>188</td>
+                </tr>
+                <tr>
+                    <th>Brest chicken, cooked</th>
+                    <td>100 gr</td>
+                    <td>197</td>
+                </tr>
+                <tr>
+                    <th>Egg, boiled</th>
+                    <td>60 gr</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <th>Mutton, grilled</th>
+                    <td>100 gr</td>
+                    <td>258</td>
+                </tr>
+                <tr>
+                    <th>Salmon, cooked</th>
+                    <td>100 gr</td>
+                    <td>206</td>
+                </tr>
+                <tr>
+                    <th>Sea Bass, cooked</th>
+                    <td>100 gr</td>
+                    <td>124</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Common Meals/Snacks</th>
+                </tr>
+                <tr>
+                    <th>Whole Wheat Bread</th>
+                    <td>100 gr</td>
+                    <td>278</td>
+                </tr>
+                <tr>
+                    <th>Butter</th>
+                    <td>10 gr</td>
+                    <td>72</td>
+                </tr>
+                <tr>
+                    <th>Dark chocolate</th>
+                    <td>10 gr</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <th>Brown Rice, cooked</th>
+                    <td>100 gr</td>
+                    <td>165</td>
+                </tr>
+                <tr>
+                    <th>Couscous, cooked</th>
+                    <td>100 gr</td>
+                    <td>112</td>
+                </tr>
+                <tr>
+                    <th>Pizza, slice</th>
+                    <td>120 gr</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <th>Hamburger</th>
+                    <td>100 gr</td>
+                    <td>263</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Beverages/Dairy</th>
+                </tr>
+                <tr>
+                    <th>Beer</th>
+                    <td>100 ml</td>
+                    <td>43</td>
+                </tr>
+                <tr>
+                    <th>Coca-Cola</th>
+                    <td>250 ml</td>
+                    <td>105</td>
+                </tr>
+                <tr>
+                    <th>Milk 2%</th>
+                    <td>100 ml</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th>Goat Milk 4%</th>
+                    <td>100 ml</td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <th>Orange juice</th>
+                    <td>200 ml</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <th>Apple cider</th>
+                    <td>100 ml</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <th>Yogurt, low-fat</th>
+                    <td>100 gr</td>
+                    <td>63</td>
+                </tr>
+            </table>
+
+            <h2 id="Contact_us">Contact us form</h2>
+            <p>If you have any questions or find mistakes don't hesitate to contact us using the following form</p>
+
+            <div class="container">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="Your email..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="austria">Austria</option>
+                                <option value="canada">Canada</option>
+                                <option value="france">France</option>
+                                <option value="germany">Germany</option>
+                                <option value="italy">Italy</option>
+                                <option value="israel">Israel</option>
+                                <option value="swiserland">Swiserland</option>
+                                <option value="uk">UK</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row button">
+                        <input type="submit" value="Submit" onclick="onSubmit()">
+                    </div>
+                </form>
+            </div>
+
+            <footer>
+
+                <h2 id="Using_sources">About</h2>
+                <div class="footer">
+
+                    <div>
+                        <img class="my_photo" src="my-photo.png" alt="My_photo" />
+                    </div>
+
+                    <div class="footer-col2">
+                        <h4>This page was designed and implemented by Nataly Basovich.</h4>
+                        <h4>The information on this page was provided by the following articles.</h4>
+                        <div class="sources">
+                            <a href="https://www.livescience.com/52802-what-is-a-calorie.html" target="_blank">
+                                https://www.livescience.com/
+                            </a>
+
+                            <a href="https://www.bbcgoodfood.com/" target="_blank">
+                                https://www.bbcgoodfood.com/
+                            </a>
+
+                            <a href="https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/understanding-calories/"
+                                target="_blank">
+                                https://www.nhs.uk/
+                            </a>
+
+                            <a href="https://www.foodiecrush.com/"
+                                target="_blank">
+                                https://www.foodiecrush.com
+                            </a>
+
+                            <a href="https://www.calculator.net/calorie-calculator.html" target="_blank">
+                                https://www.calculator.net
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+
+        </main>
+    </div>
+
+</body>
+
+</html>
